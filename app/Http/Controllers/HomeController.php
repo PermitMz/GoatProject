@@ -42,6 +42,7 @@ class HomeController extends Controller
             'fname' => 'required',
             'lname' => 'required',
             'email' => 'required|unique:users',
+            'email' => 'required|unique:users',
             'farmName' => 'required|confirmed'
         ]);
 
